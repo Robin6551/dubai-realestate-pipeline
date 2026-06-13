@@ -32,9 +32,6 @@ Raw CSV (1M+ rows, Dubai Land Department)
     load.py          → Load into PostgreSQL
         │
         ▼
-    main.py          → Pipeline orchestrator
-        │
-        ▼
   PostgreSQL DW      → Star schema (fact + 4 dim tables)
         │
         ▼
